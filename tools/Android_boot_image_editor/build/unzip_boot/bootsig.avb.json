@@ -1,0 +1,57 @@
+{
+  "header" : {
+    "required_libavb_version_major" : 1,
+    "required_libavb_version_minor" : 0,
+    "authentication_data_block_size" : 576,
+    "auxiliary_data_block_size" : 1216,
+    "algorithm_type" : 2,
+    "hash_offset" : 0,
+    "hash_size" : 32,
+    "signature_offset" : 32,
+    "signature_size" : 512,
+    "public_key_offset" : 176,
+    "public_key_size" : 1032,
+    "public_key_metadata_offset" : 1208,
+    "public_key_metadata_size" : 0,
+    "descriptors_offset" : 0,
+    "descriptors_size" : 176,
+    "rollback_index" : 0,
+    "flags" : 0,
+    "release_string" : "avbtool 1.2.0"
+  },
+  "authBlob" : {
+    "offset" : 256,
+    "size" : 576,
+    "hash" : "1872860333a94b48f5a2b36848bbb3ae6ad075c038dbb4de00add85a3176f360",
+    "signature" : "85658ab85102a6c49dacbaa0ba948279b3bd799336c33ea81d14583d57b504ec78e66bcb80c557683ef595c4a153d7e197b2d8c33d4113845cfbc4ccdc0cc4e2fc9a83c21ced593a5a8759e50982a3444e0a74bde9e7351d88426ab185acb10a7cd04dd507c9587b7f7c662dd861838992d5598236d48c92105a09a999d80cd41c8329d9b24f85a3f60a1ef3f10d593b478890fff13bfe20cfe2aa77ba07db75bebb7e7a72451aa356006340f3473ea717f3095aa0967d79cfca6c603b27907f7afdfbb3ff12ef3ade64954e3f4af4892c984daca4395737d2c1d4ad651960805d34f2d9fea086aba7b8a9b14b56b1d271b0fa6175212f8a13341fd82a6b9a613f91bb65f696171b0caf3f51740b8d325b6b563e47576826f89a1907a9c0366e27cac403a5b7d5f28877b75dd1361c37992ab0d766015fbb1b2521ba557753b7448ea4c7efb8485dd7a7437f2ba3ce959948cef6ee613ce7e13bc12e7b08872bfe9723512950d01bc748433bc79c4429cb29ab2a9325a6fccc96f9fc2dffc182f129dff12bc24292ab6d472e5dc0ca983f1453912756006a7531fb3c375dca6a666538032c0b7189f4927e945bf63d4a096490acba97cc78012ab67f258d848272b6c236e7f6f59efd9609774b2f0313975e922ecabeb62fbc7581e4b081a6f1576dd53f6b604b1d267a06ee2221b7331e39853df50189a3bb0f81bb35d1ac48"
+  },
+  "auxBlob" : {
+    "pubkey" : {
+      "offset" : 176,
+      "size" : 1032,
+      "pubkey" : "AAAQAN3haYGQPHFa9yJAviIpp5Feoyn9fr9IEOXPfDzY+SzDr0drrCjO5gY59btYOt/RbVhiXRZK3uSwN3OSiQ98CtECYG9AxUu+3m7o0W+y/UiQkvbbLN+gnbZjiAqWWBIdT0RUTdIf98eMBdgzbdpbDn7uzmwDjLvCkrc/rsWcYYeD6VuS0qKiw/Bzm/8hp7lqqtW0fgn4Y7OBPXRfckyNExjkSvktZZKDFFKp/Xcio5coGLBqXc+1g0Lmo2osbx4bSP4cwJSxKtEeSfH51DLPSc8w+tba/8Jmp+j0KAf5jowNzRKyxyjxavzs0c0Us087MkHN4MaBeLIRH4twUtBRUVKNwacmC3vkFjgnVhpATzXHQa6OYQdV6I8Hu1GyKJ1mr85vEOroNB710Kr7r4Y6YhkW4TpYJQzQ0YZGVQXgp0q00qAQGa9BANrsBaPHFLfLMt/oxGWmIIEeJPKMJ20VTojJqC0XJp39Ujbn0UXC/5V9lU94BQYwog84FOVh2THwcMYsDFb/WlJkF6ERKDYjQwEcIPwR18E1oM3nBM3x5TJpeCV929gxBKYVdf3uoPwiq/tJmM6m+HcHrqjnwN17i1SyG54Hg5rXRQG98Zx+jh4mam1j6dD9dnm0UYNbU24Bca5QhfSR9gwTXxj+9owvyNhKFF41/LcEeaIl+4W0azzj0Mcpf45+UlP0vG5mxKpzlasQthS8m6nPdkYrKrSTClWueuZRhiW0lnPF7PCj8n9jccJ2xYoqcdKRja3hQuBp5u6cRjZi0ACimdTwAMjw7IVkyNlJsTEHPCcQCMknWp5sncJtqady+BbO4W4AfGqSdi6zEZQc3bP5QdQsrnT3rocNHoX3gNwh+hDaED5Rj3MzPXFclb0xfLf1yMSIVuGCePKAcOqwlVbQIeoo2yfHPWX02EvS1JbBrkBCAJ6HRw3e5t/JQXm+faSBaTWGrSBwqaG/ykXgEDzjdeTsGnVr5g9vazd3Z3Lr6F7HqTIYvMZ+ovkIwiBC6dapTX0Ow35m+NjYSTUd15igmaqxjxq4zq2wxE5T5DQhF5ria8cp+0AJhWkfl35oxPWPnLworlDjvu2BdEb0RtfkHM8/po1BBlHzYqqTyV1NqkQq9nO6gVCyGW/X8XufeXKg1CDUiGfjn3IhIIXVcmjW4NxAgdCZdAjGNqIyaYR/LOksw0uaB1IFh0VQNjj300LOXUbJMXdaxzx1sQpw+nFSNYtTX6Uck/XfeBJDSiae5kbVQcey0hhbj1CDWT/u05hVvtxbmmcqVcS+pXk3wjJ/nnWJNga+DYtzK678/u9Fcj0dC+fsWXlEgRen9i4hDynaB7nkOFsnrweA014TLwuSSOmdEDnO0NMnxeQH"
+    },
+    "pubkeyMeta" : null,
+    "propertyDescriptors" : [ ],
+    "hashTreeDescriptors" : [ ],
+    "hashDescriptors" : [ {
+      "tag" : 2,
+      "num_bytes_following" : 160,
+      "sequence" : 1,
+      "flags" : 0,
+      "partition_name" : "boot",
+      "hash_algorithm" : "sha256",
+      "image_size" : 48160768,
+      "salt" : "0A3wDQ==",
+      "digest" : "iREHsrSNryGDJfeCkCRc0zQA2vyHAncBLUAJ+4hH9bA=",
+      "partition_name_len" : 4,
+      "salt_len" : 4,
+      "digest_len" : 32,
+      "flagsInterpretation" : "0:A/B system"
+    } ],
+    "kernelCmdlineDescriptors" : [ ],
+    "chainPartitionDescriptors" : [ ],
+    "unknownDescriptors" : [ ]
+  },
+  "footer" : null
+}

@@ -57,12 +57,12 @@ def run_command(path=None, command=None, debug=False):
     :param command: The command to run
     :return: The return code of the command
     """
-    if not os.path.exists(path):
-        logger.error("Path not exists: " + path)
-        return EXIT_NO_SUCH_DIRECTORY
-
     if path is not None:
+        if not os.path.exists(path):
+            logger.error("Path not exists: " + path)
+            return EXIT_NO_SUCH_DIRECTORY
         os.chdir(path)
+
     #logger.info(command)
     res = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, )
     if debug:

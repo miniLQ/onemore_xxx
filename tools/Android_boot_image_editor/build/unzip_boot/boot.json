@@ -1,0 +1,30 @@
+{
+  "info" : {
+    "output" : "boot.img",
+    "json" : "boot.json",
+    "headerVersion" : 4,
+    "headerSize" : 1584,
+    "pageSize" : 4096,
+    "cmdline" : "",
+    "osVersion" : "12.0.0",
+    "osPatchLevel" : "2023-11-00",
+    "imageSize" : 100663296,
+    "signatureSize" : 4096
+  },
+  "kernel" : {
+    "file" : "build/unzip_boot/kernel",
+    "position" : 4096,
+    "size" : 46774892
+  },
+  "ramdisk" : {
+    "file" : "build/unzip_boot/ramdisk.img.lz4",
+    "position" : 46780416,
+    "size" : 1380091,
+    "xzFlags" : null
+  },
+  "bootSignature" : {
+    "file" : "build/unzip_boot/bootsig",
+    "position" : 48160768,
+    "size" : 4096
+  }
+}
