@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ProjectConfig>
+	<ProjectName Description="C3Y2 Project SSI code">
+		<ProjectInterName>C3Y2_SSI</ProjectInterName>
+		<ProjectRepoInit>repo init -u ssh://gerrit.longcheer.com:29418/mtk/platform/manifest -b LXF_P272_U_SYSTEM_DRV</ProjectRepoInit>
+		<ProjectRepoSync>repo sync -c --no-tags -j12</ProjectRepoSync>
+		<ProjectBuildScript>c3y2_build.sh</ProjectBuildScript>
+	</ProjectName>
+		<ProjectName Description="C3Y2 Project VND code">
+		<ProjectInterName>C3Y2_VND</ProjectInterName>
+		<ProjectRepoInit>repo init -u ssh://gerrit.longcheer.com:29418/mtk/platform/manifest -b LXF_P272_U_VENDOR_DRV</ProjectRepoInit>
+		<ProjectRepoSync>repo sync -c --no-tags -j12</ProjectRepoSync>
+		<ProjectBuildScript>c3y2_build.sh</ProjectBuildScript>
+	</ProjectName>
+</ProjectConfig>
