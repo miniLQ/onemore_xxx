@@ -13,7 +13,7 @@ import os
 import xml.etree.ElementTree as ET
 
 
-@register_parser(longopt='--compile', desc='download code by project config file', shortopt='-c', optional=True)
+@register_parser(longopt='--compile', desc='compile code by project config file', shortopt='-c', optional=True)
 class Compile(OnemoreParser):
     def parse(self):
         logger.info('Compile code by project config file')
