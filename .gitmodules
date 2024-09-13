@@ -1,3 +1,0 @@
-[submodule "tools/Android_boot_image_editor"]
-	path = tools/Android_boot_image_editor
-	url = git@github.com:cfig/Android_boot_image_editor.git
